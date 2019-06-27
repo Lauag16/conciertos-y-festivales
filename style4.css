@@ -9,13 +9,15 @@ p
 p
 {text-indent: 15px}
 p
-{font-size: 170%}
+{font-size: 120%}
 p
 {font-family: Verdana, Geneva, Tahoma, sans-serif}
 h3
 {font-size: 250%}
 h3
 {font-family: Georgia, 'Times New Roman', Times, serif}
+h3
+{text-align: center}
 body
 {background-color: rgb(150, 178, 238)}
 .sticky-container{

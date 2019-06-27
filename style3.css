@@ -5,17 +5,25 @@ h1
 h1
 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
 p
-{text-align: justify}
+{text-align: center}
 p
 {text-indent: 15px}
 p
-{font-size: 170%}
+{font-size: 200%}
 p
 {font-family: Verdana, Geneva, Tahoma, sans-serif}
 h3
-{font-size: 250%}
+{font-size: 300%}
 h3
 {font-family: Georgia, 'Times New Roman', Times, serif}
+h5
+{font-size: 300%}
+h2
+{text-align: center}
+h2
+{font-family: Verdana, Geneva, Tahoma, sans-serif}
+h5
+{text-emphasis-color: black}
 body
 {background-color: rgb(150, 178, 238)}
 .sticky-container{

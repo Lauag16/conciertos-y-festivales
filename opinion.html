@@ -51,16 +51,49 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-5 col-lg-4 col-mg-6 col-sm-12">
+            <div class="col-12">
                 <br></br>
-                <h3>Opinión</h3>
-                <p>Nos gustaría saber vuestra opinión</p>
+                <p>Nos gustaría saber vuestra opinión. Aquí puedes expresarte.</p>
+                <br></br>
             </div>
-            <div class="col-xl-7 col-lg-8 col-md-6 col-sm-12">
+          <div class="col-xl-8 col-lg-8 col-md-9 col-sm-12">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Nombre</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Edad</span>
+                  </div>
+                  <input type="text" aria-label="First name" class="form-control">
+                  <input type="text" aria-label="Last name" class="form-control">
+                </div>
+              <br></br>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Comentario</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <br></br>
+              <script type="text/javascript">
+                function confirmacion() {
+                        var pregunta = confirm("¿Desea enviarnos tu comentario?")
+                        if (pregunta){
+                            alert("Gracias, tendremos en cuenta su opinión")
+                        }
+                        else{
+                          alert("Revise su comentario")
+                        }
+                    }
+                    </script>
+                    <button type="button" onclick="confirmacion()" >Enviar</button>
+        </div>
+            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12">
                 <br></br>
                 <img src="concierto.jpg" class="img-fluid"/>
-                <h2>hola</h2>
-                <p>este es el primer articulo</p>
             </div>
         </div>
         <div class="sticky-container">
